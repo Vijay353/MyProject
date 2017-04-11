@@ -1,0 +1,77 @@
+begin first
+    c=22
+    f=3.4
+    t=111
+  
+    d=f+c+23-23*(2%12)
+    b=211
+  
+    a=34.67
+    out $ "Hello World!!  "+d
+    if(f>32)
+    {
+    out $ "this is if() "
+  
+    out $ " print() stmt"
+  
+    }
+        else if(f<=32)
+        {
+        out $ "this is else if"
+        }
+        else
+        {
+        out $ "this is else(() "
+        }
+      
+  
+    for (a=0;a<=23;a=a+4)
+    {
+    c=23
+    out $ "This is first for loop "+"Here c= "+c
+    for(c=0;c <=  5;c=c+4)
+    {
+    c=c/a*(d%f)
+    out $ "This is Nested for loop "+"Here c= "+c
+    }
+    }
+    for(t=2;t <= 45;t=t+ 2)
+    {
+    c=c%a-c/(a+b)
+  
+    out $ "This is second for()  "+"Here c="+c
+    while(a<34)
+    {
+    c=a*b%d
+    out $ "This is nested while in second for() "+"Here c="+c
+    }
+    }
+    c=452
+    while(t< 20)
+    {
+    out $ "This is first while() "+"Here c= "+c
+  
+    t=t+2
+    }
+  
+    while(t<28)
+    {
+    c=96
+    out $ "This is second while() "+"Here c="+c
+    for(d=0;d <=34;d=d+4)
+    {
+    c=101
+    out $ "This is nested for() in while()  "+"Here c="+c
+    }
+    }
+    out $ "End of the first function!!"
+end
+begin square
+    out $ "I am another function"
+    if(3<4)
+    {
+        out $ "I am if in square()"
+        }
+  
+  
+end
